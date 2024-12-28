@@ -22,12 +22,12 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <AnimatedCursor
-      innerSize={12} // Increased inner size for better visibility
-      outerSize={20} // Increased outer size for proportionate scaling
-      color="193, 11, 111" // Retained original color
-      outerAlpha={0.3} // Slightly more opaque outer circle
-      innerScale={1} // Made inner scaling consistent and proportional
-      outerScale={6} // Slightly increased outer scaling for a smoother hover effect
+      innerSize={12} 
+      outerSize={20}
+      color="193, 11, 111"
+      outerAlpha={0.3} 
+      innerScale={1} 
+      outerScale={6} 
       clickables={[
         'a',
         'input[type="text"]',
@@ -43,12 +43,12 @@ function App() {
         {
           target: '.custom',
           options: {
-            innerSize: 16, // Custom targets get larger inner size
-            outerSize: 24, // Custom targets get larger outer size
-            color: '255, 255, 255', // A white cursor for custom elements
-            outerAlpha: 0.4, // Slightly more opaque for custom targets
-            innerScale: 1.2, // Slightly larger scaling for emphasis
-            outerScale: 6.5 // More dramatic scaling for custom targets
+            innerSize: 16,
+            outerSize: 24, 
+            color: '255, 255, 255', 
+            outerAlpha: 0.4, 
+            innerScale: 1.2,
+            outerScale: 6.5 
           }
         }
       ]}
