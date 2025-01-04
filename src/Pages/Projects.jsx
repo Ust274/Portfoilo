@@ -20,19 +20,13 @@ const projects = [
 
   },
   {
-    title: "AI Content Generator(NOT REAL)",
-    description: "An AI-powered platform that helps content creators generate high-quality, SEO-optimized content using advanced language models.",
-    tech: ["React", "Python", "FastAPI", "OpenAI"],
-    demoLink: "https://example-ai-content.com",
-    githubLink: "https://github.com/example/ai-content"
+    "title": "React Dictionary App",
+    "description": "A modern single-page dictionary application that allows users to search for word definitions, view phonetics, and listen to pronunciations. Features include persistent search history powered by local storage and a beautifully designed, responsive user interface.",
+    "tech": ["React", "Tailwind CSS", "Local Storage", "Free Dictionary API"],
+    "demoLink": "https://dictionary-app-kappa-topaz.vercel.app/",
+    "githubLink": "https://github.com/Ust274/Dictionary-App"
   },
-  {
-    title: "Project Management Dashboard (NOT REAL)",
-    description: "A comprehensive project management tool with real-time collaboration features, task tracking, and automated reporting capabilities.",
-    tech: ["React", "Firebase", "Material-UI", "Chart.js"],
-    demoLink: "https://example-pm-dashboard.com",
-    githubLink: "https://github.com/example/pm-dashboard"
-  }
+
 ];
 
 function Projects() {

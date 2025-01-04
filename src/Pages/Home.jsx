@@ -84,9 +84,9 @@ function Home() {
                 <ul className="grid grid-cols-2 gap-4 text-gray-300">
                   <li><strong>Languages</strong>: Python, C, C#, JS</li>
                   <li><strong>Front-End</strong>: HTML, CSS, JavaScript, ReactJS</li>
-                  <li><strong>Backend</strong>: NodeJS</li>
-                  <li><strong>Database</strong>: MySQL</li>
-                  <li><strong>Tools</strong>: Vite, Tailwind, Vercel</li>
+                  <li><strong>Backend</strong>: NodeJS,ExpressJs</li>
+                  <li><strong>Database</strong>: MySQL,MongoDB</li>
+                  <li><strong>Tools</strong>: Vite, Tailwind, Vercel,Git</li>
                 </ul>
               </CardContent>
             </Card>
@@ -101,7 +101,7 @@ function Home() {
         >
           <Card className="bg-slate-800/50 border-slate-700 text-gray-50">
             <CardHeader>
-              <CardTitle className="text-2xl text-white">Get in Touch (NHK) </CardTitle>
+              <CardTitle className="text-2xl text-white"> Get in Touch </CardTitle>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">
